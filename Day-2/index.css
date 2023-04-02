@@ -3,23 +3,29 @@
     background-color: gray;
     height: 100vh;
     width: 100%;
-    display: flex;
-    justify-content:space-between ;
-    align-items: flex-end;
-    flex-direction: column;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: stretch;
 
 }
 
 .box{
 
     background-color: green;
-    margin: 20px;
     width: 200px;
-    height: 200px;
+    
+    position: relative;
+   margin: 10px;
 }
 
 .box_content{
 
-text-align: center;
+text-transform: capitalize;
+position: absolute;
+left: 50%;
+top: 50%;
+font-weight: bold;
+
 
 }
