@@ -1,0 +1,22 @@
+.container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:aquamarine ;
+   
+
+}
+
+
+.box{
+
+background-color: red;
+width: 200px;
+height: 200px;
+margin: 10px;
+
+}
